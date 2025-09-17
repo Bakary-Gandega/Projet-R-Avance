@@ -1,6 +1,6 @@
 df <- read.csv("C:/Users/HP/Documents/Portfolio R/Bakery.csv", sep = ";")
 View(df)
-
+ 
 library(dplyr)
 library(prophet)
 
