@@ -10,7 +10,7 @@ df <- df %>%
   group_by(TransactionNo) %>%
   mutate(quantite_vendue = n()) %>%
   ungroup()
-
+ 
 View(df)
 
 str(df)
